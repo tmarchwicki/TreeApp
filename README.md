@@ -1,7 +1,7 @@
 # TreeApp
 neo4j database + python rest api + react ui
 
-STEP 1: Replace localhost from the UI/.env file with the address.
+STEP 1: Replace localhost from the UI/.env file with the API endpoint address.
 
 STEP 2: start the following components:
 
