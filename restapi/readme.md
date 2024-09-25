@@ -17,11 +17,7 @@ cd ~/code/app/restapi
 pip install -r requirements.txt
 
 # How to run
-source ~/ENVS/jsonserver/bin/activate
-cd ~/code/app/restapi
-uvicorn main:app --reload --port 8000
-or
-uvicorn main_neo4j:app --reload --port 8000
+bash run.sh
 
 # should be available under the url: 
 http://127.0.0.1:8000/tree
