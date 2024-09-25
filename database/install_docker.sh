@@ -1,3 +1,4 @@
+#Sorce: https://gist.github.com/EvgenyOrekhov/1ed8a4466efd0a59d73a11d753c0167b?permalink_comment_id=4562436#gistcomment-4562436
 #!/bin/bash
 
 set -o errexit
