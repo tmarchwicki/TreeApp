@@ -1,0 +1,75 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.details {
+  width: 30%;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.tree {
+  width: 70%;
+  padding: 20px;
+}
+
+.tree-node-container {
+  position: relative;
+  margin-left: 20px;
+}
+
+.tree-node {
+  display: flex;
+  align-items: center;
+  padding: 2px 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  width: fit-content;
+}
+
+.tree-node.selected {
+  color: blue;
+  border-color: blue;
+}
+
+.children {
+  margin-left: 20px;
+  position: relative;
+}
+
+.children::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 100%;
+  border-left: 1px solid #ccc;
+}
+
+.children::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 1px;
+  border-top: 1px solid #ccc;
+}
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.close-btn {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
