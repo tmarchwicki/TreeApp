@@ -2,7 +2,7 @@
 neo4j database + python rest api + react ui
 
 STEP 1: 
-- Add env file UI/.env file with the following key: .
+- Add env file UI/.env file with the following key: REACT_APP_API_URL.
 - Add env file restapi/.env file with the following key: NEO4J_PASSWORD.
   Add env file database/.env file with the following key: NEO4J_PASSWORD.
 
