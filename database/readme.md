@@ -1,16 +1,13 @@
-# run server
+# Install Docker/Docker compose
 sudo bash install_docker.sh
 sudo bash run.sh
 
-# optional
+# Install Python
 sudo apt install python3-pip
 source deactivate
 
-# delete the old data (if needed)
-cd ~/code/app/database
-sudo rm -rf neo4j_db/data/
+# Install requirements
+pip install -r requirements.txt
 
 # load data
-source ~/ENVS/jsonserver/bin/activate
-pip install -r requirements.txt
 bash load_data.sh
