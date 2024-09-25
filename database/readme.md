@@ -5,7 +5,7 @@ sudo bash install_docker.sh
 sudo bash run.sh
 
 # Install Python
-sudo apt install python3-pip
+sudo apt install python3
 
 # Install requirements
 pip install -r requirements.txt
