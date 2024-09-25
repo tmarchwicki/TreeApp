@@ -1,5 +1,7 @@
 # Install Docker/Docker compose
 sudo bash install_docker.sh
+
+# Start database server
 sudo bash run.sh
 
 # Install Python
