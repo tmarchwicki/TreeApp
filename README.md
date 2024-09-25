@@ -13,11 +13,11 @@ STEP 2: start the following components:
 - Frontend app component (written in React)
 The details for running each component can be found in the run.sh scripts that are located in component subfolders.
 
-To expose the app from AWS E2C the inbound rules should be configured to open ports for the React-app as well as for the fastAPI REST API Endpoint.
+To expose the app from AWS EC2 the inbound rules should be configured to open ports for the React-app as well as for the fastAPI REST API Endpoint.
 
 Assumptions: Code is as simple as possible, but there are some natural improvements that can be implemented:
 
-- Adding unit tests for a frontend code as well
+- Adding unit tests for the frontend code as well
 - Using dependency resolver for Python projects (e.g. poetry)
 - Encapsulating each subproject in a docker file. Currently only neo4j components runs in a docker container
 - Improving backend application security by storing passwords in some external password storage
