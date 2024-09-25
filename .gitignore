@@ -2,8 +2,16 @@
 
 /database/get-docker.sh
 /database/.env
+/database/.env.local
+/database/.env.development.local
+/database/.env.test.local
+/database/.env.production.local
 
 /restapi/.env
+/restapi/.env.local
+/restapi/.env.development.local
+/restapi/.env.test.local
+/restapi/.env.production.local
 
 # dependencies
 /ui/node_modules
